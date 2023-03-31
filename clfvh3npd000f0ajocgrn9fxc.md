@@ -1,8 +1,9 @@
 ---
-title: "Roadmap para estudo de Java"
+title: "Roadmap para estudo de Java 
+Roadmap for studying Java"
 datePublished: Thu Mar 30 2023 18:52:36 GMT+0000 (Coordinated Universal Time)
 cuid: clfvh3npd000f0ajocgrn9fxc
-slug: roadmap-para-estudo-de-java
+slug: roadmap-para-estudo-de-java-roadmap-for-studying-java
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680300111399/93cb279f-4ccc-4d41-bb23-5065e7bc6edf.jpeg
 tags: java, roadmap, study
 

@@ -3,7 +3,6 @@ title: "SOLID e seus princípios"
 datePublished: Fri Apr 07 2023 14:23:50 GMT+0000 (Coordinated Universal Time)
 cuid: clg6n0tp7000b09l85jmefflj
 slug: solid-e-seus-principios
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680877184264/f9f4dabb-e8ed-482a-890f-38e4a5cd76e9.webp
 tags: solid-principles, principios-solid
 
 ---

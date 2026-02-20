@@ -41,7 +41,7 @@ const projects = [
       ROSE: 'TypeScript',
     },
   },
-  {
+  /* {
     name: 'Project 2',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.',
@@ -55,8 +55,8 @@ const projects = [
       EMERALD: 'Blog',
       YELLOW: 'JavaScript',
     },
-  },
-  {
+  }, */
+  /* {
     name: 'Project 3',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.',
@@ -70,6 +70,6 @@ const projects = [
       INDIGO: 'Bootstrap',
       ROSE: 'TypeScript',
     },
-  },
+  }, */
 ];
 </script>

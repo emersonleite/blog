@@ -10,7 +10,9 @@
       </div>
 
       <div class="flex flex-col lg:flex-row gap-4 flex-1">
-        <aside class="controls-sidebar w-full lg:w-96 shrink-0 flex flex-col gap-4 lg:max-h-[700px] lg:overflow-y-auto lg:pr-2">
+        <aside
+          class="controls-sidebar w-full lg:w-96 shrink-0 flex flex-col gap-4 lg:max-h-[700px] lg:overflow-y-auto lg:pr-2"
+        >
           <div class="bg-slate-800 rounded-md p-4">
             <ConfigPanel
               v-model="config"

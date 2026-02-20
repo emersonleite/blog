@@ -4,7 +4,7 @@
       <div class="text-center mb-8">
         <h1 class="text-3xl font-bold tracking-tight text-white mb-2">
           Comparador de
-          <span class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">renda fixa</span>
+          <span class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Renda fixa</span>
         </h1>
         <p class="text-sm text-gray-400">CDB (com IR) vs LCI / LCA / CRI / CRA (sem IR)</p>
       </div>

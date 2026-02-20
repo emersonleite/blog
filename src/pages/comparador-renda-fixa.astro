@@ -1,14 +1,17 @@
 ---
 import Base from '@/templates/Base.astro';
 import ComparadorApp from '@/components/comparador/ComparadorApp.vue';
+/* import Section from '@/components/Section.vue'; */
 
-const title = 'Comparador de Investimentos - Renda Fixa';
+const title = 'Comparador de Renda fixa';
 const description = 'Compare rendimentos entre CDB (com IR) e LCI/LCA/CRI/CRA (sem IR) de forma interativa.';
 ---
 
 <Base head={{ title, description }}>
   <div class="bg-slate-900">
+    <!-- <Section> -->
     <ComparadorApp client:load />
+    <!-- </Section> -->
   </div>
 </Base>
 
@@ -28,4 +31,3 @@ const description = 'Compare rendimentos entre CDB (com IR) e LCI/LCA/CRI/CRA (s
     background: #64748b; /* slate-500 */
   }
 </style>
-

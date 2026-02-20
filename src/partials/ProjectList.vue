@@ -26,13 +26,13 @@ import Tags from '@/components/Tags.vue';
 
 const projects = [
   {
-    name: 'Comparador de Investimentos',
+    name: 'Comparador de Renda fixa',
     description:
       'Ferramenta interativa para comparar rentabilidades entre CDB (com IR) e LCI/LCA/CRI/CRA (sem IR). Compare diferentes percentuais do CDI, IPCA + spread e taxas pré-fixadas ao longo do tempo.',
-    link: '/comparador-investimentos/',
+    link: '/comparador-renda-fixa/',
     img: {
       src: '/assets/images/projects/project-web-design.png',
-      alt: 'Comparador de Investimentos',
+      alt: 'Comparador de Renda fixa',
     },
     category: {
       EMERALD: 'Vue.js',

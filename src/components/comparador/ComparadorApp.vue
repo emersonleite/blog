@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-slate-900 text-gray-100 transition-colors duration-300 flex flex-col">
+  <div class="bg-slate-900 text-gray-100 transition-colors duration-300">
     <div class="container mx-auto px-4 py-8">
       <div class="text-center mb-8">
         <h1 class="text-3xl font-bold tracking-tight text-white mb-2">
@@ -10,7 +10,7 @@
       </div>
 
       <div class="flex flex-col lg:flex-row gap-4 flex-1">
-        <aside class="w-full lg:w-96 shrink-0 flex flex-col gap-4 lg:max-h-[700px] lg:overflow-y-auto lg:pr-2">
+        <aside class="controls-sidebar w-full lg:w-96 shrink-0 flex flex-col gap-4 lg:max-h-[700px] lg:overflow-y-auto lg:pr-2">
           <div class="bg-slate-800 rounded-md p-4">
             <ConfigPanel
               v-model="config"

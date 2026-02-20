@@ -13,25 +13,19 @@ const description = 'Compare rendimentos entre CDB (com IR) e LCI/LCA/CRI/CRA (s
 </Base>
 
 <style is:global>
-  /* Scrollbar discreta */
-  ::-webkit-scrollbar {
+  /* Scrollbar discreta apenas para o scroll dos controles laterais */
+  .controls-sidebar::-webkit-scrollbar {
     width: 6px;
   }
-  ::-webkit-scrollbar-track {
+  .controls-sidebar::-webkit-scrollbar-track {
     background: transparent;
   }
-  ::-webkit-scrollbar-thumb {
-    background: #d1d5db; /* gray-300 */
+  .controls-sidebar::-webkit-scrollbar-thumb {
+    background: #475569; /* slate-600 */
     border-radius: 9999px;
   }
-  ::-webkit-scrollbar-thumb:hover {
-    background: #9ca3af; /* gray-400 */
-  }
-
-  .dark ::-webkit-scrollbar-thumb {
-    background: #374151; /* gray-700 */
-  }
-  .dark ::-webkit-scrollbar-thumb:hover {
-    background: #4b5563; /* gray-600 */
+  .controls-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #64748b; /* slate-500 */
   }
 </style>
+

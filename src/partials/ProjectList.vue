@@ -26,18 +26,18 @@ import Tags from '@/components/Tags.vue';
 
 const projects = [
   {
-    name: 'Project 1',
+    name: 'Comparador de Investimentos',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum. Nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim.',
-    link: '/',
+      'Ferramenta interativa para comparar rentabilidades entre CDB (com IR) e LCI/LCA/CRI/CRA (sem IR). Compare diferentes percentuais do CDI, IPCA + spread e taxas pré-fixadas ao longo do tempo.',
+    link: '/comparador-investimentos/',
     img: {
       src: '/assets/images/projects/project-web-design.png',
-      alt: 'Project Web Design',
+      alt: 'Comparador de Investimentos',
     },
     category: {
-      FUCHSIA: 'Astro.js',
-      LIME: 'Web design',
-      SKY: 'Tailwind.css',
+      EMERALD: 'Vue.js',
+      LIME: 'Chart.js',
+      SKY: 'Tailwind CSS',
       ROSE: 'TypeScript',
     },
   },

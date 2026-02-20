@@ -1,0 +1,37 @@
+---
+import Base from '@/templates/Base.astro';
+import ComparadorApp from '@/components/comparador/ComparadorApp.vue';
+
+const title = 'Comparador de Investimentos - Renda Fixa';
+const description = 'Compare rendimentos entre CDB (com IR) e LCI/LCA/CRI/CRA (sem IR) de forma interativa.';
+---
+
+<Base head={{ title, description }}>
+  <div class="bg-slate-900">
+    <ComparadorApp client:load />
+  </div>
+</Base>
+
+<style is:global>
+  /* Scrollbar discreta */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d1d5db; /* gray-300 */
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af; /* gray-400 */
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background: #374151; /* gray-700 */
+  }
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: #4b5563; /* gray-600 */
+  }
+</style>

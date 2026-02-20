@@ -12,6 +12,7 @@
 
       <NavMenu>
         <NavMenuItem href="/blog/">Blog</NavMenuItem>
+        <NavMenuItem href="/comparador-investimentos/">Comparador</NavMenuItem>
         <NavMenuItem href="https://github.com/barthol0/Astro-boilerplate-vue">GitHub</NavMenuItem>
         <NavMenuItem href="/">Linkedin</NavMenuItem>
       </NavMenu>

@@ -10,7 +10,7 @@
       </div>
 
       <div class="flex flex-col lg:flex-row gap-4 flex-1">
-        <aside class="w-full lg:w-96 shrink-0 flex flex-col gap-4">
+        <aside class="w-full lg:w-96 shrink-0 flex flex-col gap-4 lg:max-h-[700px] lg:overflow-y-auto lg:pr-2">
           <div class="bg-slate-800 rounded-md p-4">
             <ConfigPanel
               v-model="config"
@@ -25,7 +25,7 @@
           </div>
         </aside>
 
-        <main class="flex-1 min-h-[420px] lg:min-h-0 bg-slate-800 rounded-md p-4 flex flex-col">
+        <main class="flex-1 h-[500px] lg:h-[700px] bg-slate-800 rounded-md p-4 flex flex-col">
           <div class="mb-3 flex flex-col items-center gap-1">
             <h2
               class="text-base font-bold tracking-wide bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent"
